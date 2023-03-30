@@ -1,4 +1,6 @@
 
+import 'package:dio/src/form_data.dart';
+
 import '../apis/api_endpoint.dart';
 import '../providers/api_provider.dart';
 import 'api_service.dart';
@@ -6,6 +8,11 @@ import 'prefrences.dart';
 
 class Repository extends ApiProviders {
   var deviceId = Pref.readData(key: Pref.DEVICE_UNIQUE);
+
+  @override
+  Future uploadBaseApi({required String endPoint, required Method method, required FormData map}) {
+    throw UnimplementedError();
+  }
 
   ///-------------------------Announcement Api---------------------///
 
