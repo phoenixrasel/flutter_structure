@@ -3,15 +3,8 @@ import 'package:flutter/material.dart';
 class ExtraColors {
   ///-------------------
   /// -- primary colorset
-  static Color PRIMARY_100 = Color(0xffFEF1CB);
-  static Color PRIMARY_200 = Color(0xffFEDF98);
-  static Color PRIMARY_300 = Color(0xffFCC764);
-  static Color PRIMARY_400 = Color(0xffF9B03E);
-  static Color PRIMARY_500 = Color(0xffF58B00);
-  static Color PRIMARY_600 = Color(0xffD26E00);
-  static Color PRIMARY_700 = Color(0xffB05400);
-  static Color PRIMARY_800 = Color(0xff8E3D00);
-  static Color PRIMARY_900 = Color(0xff752E00);
+  static Color PRIMARY_100 = Color(0xffE4961C);
+ 
 
   ///-----------------------
   /// -- @ success
@@ -93,21 +86,6 @@ class ExtraColors {
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
     colors: [INFO_300, INFO_500],
-  );
-  static LinearGradient GRADIENT_ORANGE_DARK = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [PRIMARY_700, PRIMARY_900],
-  );
-  static LinearGradient GRADIENT_ORANGE_MID = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [PRIMARY_500, PRIMARY_700],
-  );
-  static LinearGradient GRADIENT_ORANGE_LIGHT = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [PRIMARY_300, PRIMARY_500],
   );
   static LinearGradient GRADIENT_BLACK = LinearGradient(
     begin: Alignment.topCenter,

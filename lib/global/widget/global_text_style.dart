@@ -29,7 +29,7 @@ class GlobalTextStyle {
       );
 
   static tabStyle() => TextStyle(
-      color: ExtraColors.PRIMARY_700,
+      color: ExtraColors.PRIMARY_100,
       fontSize: AppDimens.tSmall,
       fontWeight: FontWeight.w400);
 }

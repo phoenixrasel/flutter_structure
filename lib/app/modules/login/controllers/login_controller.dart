@@ -1,12 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-class HomeController extends GetxController {
+class LoginController extends GetxController {
+
   Map<String, TextEditingController> inputs = {
     "user": TextEditingController(),
-    "user_account": TextEditingController(),
-    "amount": TextEditingController(),
+    "pass": TextEditingController(),
   };
+
+  RxBool visibility = true.obs;
+  changeVisibility() {
+    visibility.value = visibility.value == false;
+  }
+ 
   @override
   void onInit() {
     super.onInit();

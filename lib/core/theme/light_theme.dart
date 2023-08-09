@@ -19,7 +19,7 @@ class LightTheme {
         height: 45,
       ),
       appBarTheme: AppBarTheme(
-          backgroundColor: ExtraColors.PRIMARY_500,
+          backgroundColor: ExtraColors.PRIMARY_100,
           elevation: 0,
           titleTextStyle: TextStyle(
               color: color.onPrimary,
